@@ -7,8 +7,8 @@ body{
 .container{
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-right: 130px;
+    justify-content: space-around;
+    margin-right: 0px;
     margin-top: 50px;
     flex-wrap: wrap-reverse;
 }
@@ -65,6 +65,10 @@ body{
     color: red;
 }
 
+.status{
+    width: 230px;
+}
+
 #reset{
     background-color: #1d4ed8;
     border: 1px solid #1d4ed8;
@@ -75,7 +79,6 @@ body{
 }
 
 #winner{
-    margin-left: 30px;
     color: purple;
     font-size: 40px;
 }
